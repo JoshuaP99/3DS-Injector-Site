@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <!--This is the navbar for my site that exists on both pages-->
+    <!--The navbar is collapsable and is able to be used to on mobile and desktop-->
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <a class="navbar-brand" href="index.html">
+            <img src="https://ssb.wiki.gallery/images/4/44/DSSymbol.svg" height="30" class="d-inline-block align-top">
+            3DS CIA Injectors
+        </a>
+        <button 
+        type="button" 
+        class="navbar-toggler"
+        data-bs-toggle="collapse" 
+        data-bs-target="#navbarNavDropdown" 
+        aria-controls="navbarNavDropdown" 
+        aria-expanded="false" 
+        aria-label="toggle navigation"
+        >
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li> 
+                <li class="nav-item">
+                    <a class="nav-link" href="index2.html">Contact Me</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <form>
+        <br><div class="form-group">
+          <label for="exampleInputEmail1">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+          <small id="emailHelp" class="form-text text-muted">If you have any questions send me an email and I'll message you back!</small>
+        </div>
+        <br><div class="form-group">
+          <label for="formText">Feedback</label>
+          <textarea class="form-control" id="formText" rows="3" placeholder="Enter text..."></textarea>
+        </div>
+        <br><button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+
+
+
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+
+</body>
+</html>

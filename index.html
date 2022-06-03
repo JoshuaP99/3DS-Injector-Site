@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <!--This is the navbar for my site that exists on both pages-->
+    <!--The navbar is collapsable and is able to be used to on mobile and desktop-->
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <a class="navbar-brand" href="index.html">
+            <img src="https://ssb.wiki.gallery/images/4/44/DSSymbol.svg" height="30" class="d-inline-block align-top">
+            3DS CIA Injectors
+        </a>
+        <button 
+        type="button" 
+        class="navbar-toggler"
+        data-bs-toggle="collapse" 
+        data-bs-target="#navbarNavDropdown" 
+        aria-controls="navbarNavDropdown" 
+        aria-expanded="false" 
+        aria-label="toggle navigation"
+        >
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li> 
+                <li class="nav-item">
+                    <a class="nav-link" href="index2.html">Contact Me</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!--This table is seperated into 3 columns and 3 rows-->
+    <!--The first row holds a table with a thumbnail and link to a website-->
+    <!--The second row holds a list of games that can be used with the injector-->
+    <!--The third row shows a video tutorial on how to use the injector-->
+    <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">Injector</th>
+            <th scope="col">Game Examples</th>
+            <th scope="col">Tutorial</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Nintendo-Game-Boy-Color-FL.jpg/1024px-Nintendo-Game-Boy-Color-FL.jpg" width="220px"><figcaption><a href="https://gbatemp.net/threads/release-ultimate-gbc-vc-injector-for-3ds.434172/">GBC Injector</a></figcaption></th>
+            <td>
+                <ul class="list-group">
+                    <li class="list-group-item">Pokemon Crystal</li>
+                    <li class="list-group-item">Mario Deluxe</li>
+                    <li class="list-group-item">Wario Land 3</li>
+                    <li class="list-group-item">Bomberman Max</li>
+                    <li class="list-group-item">Dragon Warrior I & II</li>
+                </ul>
+            </td>
+            <td><iframe width="420" height="315" src="https://www.youtube.com/embed/qyQAdIxeDUM"></iframe></td>
+          </tr>
+          <tr>
+            <th scope="row"><img src="https://upload.wikimedia.org/wikipedia/commons/0/04/Game-Boy-Advance-Blk_mod.png" width="300px"><figcaption><a href="https://gbatemp.net/threads/release-ultimate-gba-vc-injector-for-3ds.438057/">GBA Injector</a></figcaption></th>GBA Injector</th>
+            <td>
+                <ul class="list-group">
+                    <li class="list-group-item">Pokemon Emerald</li>
+                    <li class="list-group-item">Kirby Nightmare in Dreamland</li>
+                    <li class="list-group-item">Golden Sun</li>
+                    <li class="list-group-item">Final Fantasy Tactics</li>
+                    <li class="list-group-item">Sonic Advance 3</li>
+                </ul>
+            </td>
+            <td><iframe width="420" height="315" src="https://www.youtube.com/embed/ciRRNPkK5fM"></iframe></td>
+          </tr>
+          <tr>
+            <th scope="row"><img src="https://upload.wikimedia.org/wikipedia/commons/0/0b/SNES_US.png" width="300px"><figcaption><a href="https://gbatemp.net/threads/release-ultimate-snes-vc-injector-for-3ds.453891/">SNES Injector</a></figcaption></th>
+            <td>
+                <ul class="list-group">
+                    <li class="list-group-item">Chrono Trigger</li>
+                    <li class="list-group-item">Donkey Kong Country</li>
+                    <li class="list-group-item">Final Fantasy 3</li>
+                    <li class="list-group-item">Earthbound</li>
+                    <li class="list-group-item">Super Mario World</li>
+                  </ul>
+            </td>
+            <td><iframe width="420" height="315" src="https://www.youtube.com/embed/G6zkMl9UTJM"></iframe></td>
+          </tr>
+        </tbody>
+    </table>
+
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+
+</body>
+</html>
